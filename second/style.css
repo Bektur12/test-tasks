@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  padding: 10px 10px 0;
+  margin: 0 auto;
+  max-width: 1600px;
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
+.banner {
+  height: 800px;
+  background-image: url("./assets/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro-text > h2 {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.block {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.block > h1 {
+  color: rgb(28, 115, 240);
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.block > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.block > div h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.block > div p {
+  margin: 5px 0 16px;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.block button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 29.92px;
+  background: rgb(28, 115, 240);
+  color: rgb(255, 255, 255);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.read-more {
+  border-radius: 10px;
+  background: rgb(245, 245, 245);
+  padding: 11px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.read-more > h1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.read-more > button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 29.92px;
+  background: rgb(28, 115, 240);
+  color: rgb(255, 255, 255);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.first-image {
+  height: 200px;
+  flex: 1;
+  background-image: url("./assets/images/first.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.second-image {
+  height: 200px;
+  flex: 1;
+  background-image: url("./assets/images/second.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.third-image {
+  height: 200px;
+  flex: 1;
+  background-image: url("./assets/images/third.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.fourth-image {
+  height: 200px;
+  flex: 1;
+  background-image: url("./assets/images/fourth.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+hr {
+  margin: 50px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer > .first {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer > .first > p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #9d9fa4;
+}
+
+footer > .first > p > span {
+  color: rgb(28, 115, 240);
+}
+
+footer > .first > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+footer > .devices {
+  overflow: hidden;
+}
+
+footer > .devices > img:first-child {
+  position: relative;
+  top: 35px;
+  left: 25px;
+  z-index: 1;
+}
+
+footer > .devices > img:last-child {
+  position: relative;
+  top: 35px;
+}
+
+@media screen and (max-width: 1300px) {
+  .banner {
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .intro-text {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .banner {
+    height: 300px;
+  }
+
+  footer > .devices > img:first-child {
+    top: 180px;
+    left: 0;
+  }
+}

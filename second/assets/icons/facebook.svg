@@ -1,0 +1,21 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5_11867">
+			<rect id="Layer_1" width="25.000374" height="24.991011" transform="translate(-0.500244 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip5_11868">
+			<rect id="Frame" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Frame" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip5_11868)">
+		<path id="Vector" d="M12 0C6.99 0 5.52 0 5.24 0.02C4.21 0.11 3.57 0.27 2.87 0.62C2.34 0.89 1.91 1.19 1.5 1.63C0.73 2.42 0.27 3.39 0.11 4.55C0.02 5.11 0 5.22 0 8.09C-0.01 9.05 0 10.3 0 11.99C0 17 0 18.46 0.03 18.75C0.11 19.75 0.27 20.38 0.6 21.06C1.23 22.38 2.45 23.37 3.87 23.74C4.37 23.87 4.91 23.94 5.62 23.97C5.91 23.99 8.94 24 11.97 24C15 24 18.03 23.99 18.32 23.98C19.14 23.94 19.61 23.88 20.13 23.74C21.57 23.37 22.76 22.39 23.41 21.06C23.73 20.39 23.9 19.73 23.97 18.78C23.99 18.58 24 15.28 24 11.99C24 8.69 23.99 5.4 23.97 5.2C23.9 4.23 23.73 3.58 23.39 2.9C23.12 2.34 22.81 1.92 22.37 1.49C21.57 0.73 20.6 0.27 19.45 0.11C18.88 0.02 18.77 0 15.9 0L12 0Z" fill="#157DC3" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<rect id="Layer_1" width="25.000374" height="24.991011" transform="translate(-0.500244 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip5_11867)">
+			<path id="f" d="M16.57 24.56L16.57 15.21L19.71 15.21L20.18 11.57L16.57 11.57L16.57 9.25C16.57 8.19 16.86 7.48 18.38 7.48L20.31 7.48L20.31 4.21C19.97 4.16 18.83 4.07 17.5 4.07C14.72 4.07 12.82 5.76 12.82 8.88L12.82 11.57L9.67 11.57L9.67 15.21L12.82 15.21L12.82 24.56L16.57 24.56Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

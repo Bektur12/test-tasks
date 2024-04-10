@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  padding: 10px 10px 0;
+  margin: 0 auto;
+  max-width: 1600px;
+  background-color: #fafafa;
+}
+
+.banner {
+  height: 800px;
+  background-image: url("./assets/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro-text > h2 {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.cards-box {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cards-box > h1 {
+  color: rgb(28, 115, 240);
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cards > .card {
+  border: 0.59px solid rgb(233, 233, 233);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards > .event {
+  background: black;
+  border: 0.59px solid rgb(233, 233, 233);
+}
+
+.cards > .card > img {
+  border-radius: 10px 10px 0 00px;
+  width: 100%;
+}
+
+.cards > .card > .online {
+  margin: 10px 0 0 10px;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  font-size: 0.5rem;
+  font-weight: 400;
+}
+
+.cards > .card .date,
+.cards > .card .price {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.625rem;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.cards > .card .date > span,
+.cards > .card .price > span {
+  color: white;
+}
+
+.cards > .card > .autor-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 10px;
+  font-size: 0.625rem;
+  font-weight: 500;
+}
+
+.cards > .card > .autor-info > img {
+  width: 19px;
+  height: 19px;
+}
+
+.cards > .card > .autor-info > .date {
+  color: rgba(17, 23, 34, 0.4);
+}
+
+.cards > .card > .complete {
+  color: rgb(255, 255, 255);
+  font-size: 0.5rem;
+  font-weight: 400;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 4px;
+  background: rgb(28, 115, 240);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+}
+
+.cards > .card > .title {
+  padding: 0 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.cards > .event > .title {
+  color: white;
+}
+
+.cards > .card > .description {
+  color: rgba(17, 23, 34, 0.4);
+  padding: 0 10px;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.cards > .event > .description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.cards > .card > .status {
+  position: relative;
+  bottom: 360px;
+  left: 499px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+  padding: 3px 5px;
+  background: rgba(17, 23, 34, 0.4);
+  width: fit-content;
+  color: rgb(255, 255, 255);
+  font-size: 0.5rem;
+  font-weight: 400;
+}
+
+.cards > .event > .status {
+  bottom: 420px;
+  left: 470px;
+}
+
+.cards > .discussion > .status {
+  bottom: 400px;
+  left: 480px;
+}
+
+.read-more {
+  border-radius: 10px;
+  background: rgb(245, 245, 245);
+  padding: 11px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.read-more > h1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.read-more > button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 29.92px;
+  background: rgb(28, 115, 240);
+  color: rgb(255, 255, 255);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+hr {
+  margin: 50px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer > .first {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer > .first > p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #9d9fa4;
+}
+
+footer > .first > p > span {
+  color: rgb(28, 115, 240);
+}
+
+footer > .first > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+footer > .devices {
+  overflow: hidden;
+}
+
+footer > .devices > img:first-child {
+  position: relative;
+  top: 35px;
+  left: 25px;
+  z-index: 1;
+}
+
+footer > .devices > img:last-child {
+  position: relative;
+  top: 35px;
+}
+
+@media screen and (max-width: 1300px) {
+  .banner {
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .intro-text {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .banner {
+    height: 300px;
+  }
+
+  .cards > .card > .status {
+    bottom: 320px;
+    left: 120px;
+  }
+
+  .cards > .event > .status {
+    bottom: 330px;
+    left: 120px;
+  }
+
+  .cards > .discussion > .status {
+    bottom: 360px;
+    left: 120px;
+  }
+
+  footer > .devices > img:first-child {
+    top: 180px;
+    left: 0;
+  }
+}
